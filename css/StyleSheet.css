@@ -1,0 +1,123 @@
+﻿
+html, body {
+  font-family: 'Roboto', sans-serif;
+  font-size:14px;
+  height:100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.navBardemoBasicUsage md-content .ext-content {
+  padding: 50px;
+  margin: 20px;
+  background-color: #FFF2E0; 
+
+}
+
+.md-button.md-raised {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  width:100%;
+  text-align:center;
+  background-color:#008CBA;
+  border-color:white;
+  color:white;
+  border:thin;  
+}
+
+.md-button.md-raised:hover {
+    color: black;
+}
+
+.thumb {
+    height:150px;
+    width:150px;
+}
+
+h3 {
+    color:black;
+    text-shadow: 0 0 3px red;
+    font-size:xx-large;
+}
+
+.orange{
+    color:white;
+    text-align:center;
+}
+
+.side {
+    margin-top:100px;
+    margin-left:30px;
+}
+
+#content  {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 5px;
+}
+
+.md-accordion .expandCollapse { 
+  width:30px;
+  height:30px;
+  position:relative;
+  font-size:20px;
+  font-weight:bold;
+  cursor:pointer;
+  color:#fff;
+  display:block;
+  margin-top: -2px;
+  margin-left: -2px;
+  overflow:hidden;
+}
+.md-accordion .expandCollapse:active {
+  border:0px;
+}
+.md-accordion .expandCollapse:before, .md-accordion .expandCollapse:after {
+  width:30px;
+  height:30px;
+  display:block;
+  position:absolute;
+  top:0; left:0;
+  line-height:32px;
+  text-align:center;
+
+}
+.md-accordion .expandCollapse:before { 
+  opacity:1;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  content: "|";
+  margin-top:-3px;
+}
+.md-accordion .expandCollapse:after {
+  opacity:1;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  content: "|";
+  margin-left:-3px;
+}
+.md-accordion .active:before {
+  opacity:1;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  margin-left:3px;
+  margin-top:0px;
+}
+
+.md-accordion .dataContent {
+  background: #F2F2F2;
+  height:0px;
+  overflow:hidden;
+  -webkit-transition: .5s all ease-out;
+  transition: .5s all ease-out;
+}
+
+.md-accordion .activeContent {
+  height:auto;
+  padding:20px;
+  display:block;
+}
+
+.md-accordion md-toolbar{
+  cursor:pointer;
+  border-bottom:1px solid red;
+}

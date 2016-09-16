@@ -1,0 +1,5 @@
+﻿<div><a href="#" ng-model="active">Go Back</a></div>
+<span ng-repeat="photo in photos | unique :'albumId' : albId">
+    <img class="thumb" ng-src="{{photo.thumbnailUrl}}" />
+</span>
+
